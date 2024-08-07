@@ -2,6 +2,7 @@
 header{
   z-index: 99;
 }
+
 /* 03 logo-company start */
 .logo-company img{
   width: 180px;
@@ -78,4 +79,19 @@ header{
 .box-innovating .card{
 z-index: -1;
 }
+.invent-box-r{
+  background-color: #ff1053;
+}
 /* 07 innovating end */
+
+
+
+
+/* Footer css */
+footer ul{
+  color: #666666 !important;
+
+}
+footer ul li:hover{
+  border-bottom: 2px solid #499dd6;
+}
