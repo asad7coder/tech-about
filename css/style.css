@@ -1,10 +1,21 @@
 
+*{
+  font-family: "Outfit", sans-serif;
+
+  box-sizing: border-box;
+  
+}
 header{
   z-index: 99;
 }
+
 body{
   overflow-x: hidden;
   background: white;
+}
+.container, .row, .col, .card {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 /* 03 logo-company start */
 .logo-company img{
@@ -67,9 +78,6 @@ body{
 .TechAbout-Clientele p{
   line-height: 40px;
 }
-.tech-project{
-  box-shadow: 0 60px 135px rgba(0, 0, 0, .14), 0 15px 65px rgba(0, 0, 0, .14);
-}
 
 /*  06 TechAbout Clientele section end  */
 
@@ -98,3 +106,24 @@ footer ul{
 footer ul li:hover{
   border-bottom: 2px solid #499dd6;
 }
+
+
+
+
+
+/* ch */
+/* Ensure all images do not exceed their container width */
+
+
+/* General container overflow prevention */
+
+
+/* Hide body overflow as a last resort */
+
+
+/* Ensure that sections have correct box-sizing */
+
+
+/* Debug individual components */
+
+
